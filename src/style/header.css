@@ -1,0 +1,40 @@
+.social-icon {
+    display: flex;
+    justify-content: flex-end;
+    background: #ECECEC;
+    padding: 13px;
+}
+.social-icon ul{
+    display: flex;
+    justify-content: space-between;
+    width: 243px;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    padding: 41px;
+    font-size: 60px;
+    line-height: 80px;
+    color: #070707;
+    border: 1px solid rgba(196, 196, 196, 0.5);
+}
+.menu-links ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    font-family: 'Lato-Semibold';
+}
+.menu-links a {
+    font-size: 17px;
+    line-height: 20px;
+    color: #3D3D3D;
+    transition: .25s;
+}
+
+.menu-links a:hover {
+    color: #070707;
+    transition: .25s;
+}
+

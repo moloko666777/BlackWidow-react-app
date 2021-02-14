@@ -1,0 +1,80 @@
+@font-face {
+    font-family: 'Krungthep';
+    src: local('Krungthep'), url("../fonts/Krungthep.ttf");
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lato-Regular';
+    src: local('Lato-Regular'), url("../fonts/Lato-Regular.ttf");
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lato-Medium';
+    src: local('Lato-Medium'), url("../fonts/Lato-Medium.ttf");
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lato-Semibold';
+    src: local('Lato-Semibold'), url("../fonts/Lato-Semibold.ttf");
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lato-Bold';
+    src: local('Lato-Bold.ttf'), url("../fonts/Lato-Bold.ttf");
+    font-weight: 700;
+    font-style: normal;
+    font-stretch: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Zeferino-Three';
+    src: local('Zeferino-Three.ttf'), url("../fonts/Zeferino-Three.ttf");
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'GillSansProCyrillicBold';
+    src: local('Zeferino-Three.ttf'), url("../fonts/GillSansProCyrillic-Bold.ttf");
+    font-weight: 700;
+    font-style: normal;
+    font-stretch: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'GillSansProCyrillicMedium';
+    src: local('Zeferino-Three.ttf'), url("../fonts/GillSansProCyrillic-Medium.ttf");
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'GillSansProCyrillicLight';
+    src: local('Zeferino-Three.ttf'), url("../fonts/GillSansProCyrillic-Light.ttf");
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    font-display: swap;
+}
