@@ -1,35 +1,29 @@
 import React from 'react';
-import '../style/header.css';
+import head from '../style/Header.module.css';
+
+import twitterIcon from '../image/twitter.svg';
+import facebookIcon from '../image/Frame9.svg';
+import youtubeIcon from '../image/youtube.svg';
+import pinterestIcon from '../image/pinterest.svg';
+import instagramIcon from '../image/instagram1.svg';
+import MenuLinks from "./headerMenuLinks/MenuLinks";
 
 const Header = () => {
     return (
         <header>
-            <div className="social-icon">
+            <div className={head.social}>
                 <ul>
-                    <li><a href="#">fac</a></li>
-                    <li><a href="#">fac</a></li>
-                    <li><a href="#">fac</a></li>
-                    <li><a href="#">fac</a></li>
-                    <li><a href="#">fac</a></li>
+                    <li><a href="#"><img src={twitterIcon} alt="facebook"/></a></li>
+                    <li><a href="#"><img src={facebookIcon} alt="facebook"/></a></li>
+                    <li><a href="#"><img src={youtubeIcon} alt="youtube"/></a></li>
+                    <li><a href="#"><img src={pinterestIcon} alt="pinterest"/></a></li>
+                    <li><a href="#"><img src={instagramIcon} alt="instagram"/></a></li>
                 </ul>
             </div>
-            <div className="logo">
+            <div className={head.logo}>
                 <p>THE BLACK WIDOW</p>
             </div>
-            <div className="menu-links">
-                <ul>
-                    <li><a href="#">HOME</a></li>
-                    <li><a href="#">MISSION</a></li>
-                    <li><a href="#">CHARITY</a></li>
-                    <li><a href="#">ABOUT US</a></li>
-                    <li><a href="#">COLLABORATION</a></li>
-                    <li><a href="#">YOUR STORY</a></li>
-                    <li><a href="#">BLOG</a></li>
-                    <li><a href="#">THE AMBASSADOR</a></li>
-                    <li><a href="#">NEWS ROOM</a></li>
-                    <li><a href="#">CONTACT</a></li>
-                </ul>
-            </div>
+            <MenuLinks />
         </header>
     )
 }

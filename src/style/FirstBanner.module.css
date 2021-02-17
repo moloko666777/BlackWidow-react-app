@@ -1,0 +1,14 @@
+.image {
+position: relative;
+}
+
+.image p{
+    position: absolute;
+    top: 50%;
+    right: 10%;
+    transform: translateY(-50%);
+    font-size: 31px;
+    line-height: 37px;
+    color: #ffffff;
+    text-transform: uppercase;
+}

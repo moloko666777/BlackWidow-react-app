@@ -1,23 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ce82539a-96ea-4f6b-9de6-74e9c8c958bb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/component/FirstBanner.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/Header.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Krungthep.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Lato-Bold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Lato-Light.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Lato-Medium.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Lato-Semibold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/font/Lato-Thin.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/image/shutterstock_12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/style/css-reset.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/style/firstBanner.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/style/font.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/style/header.css" afterDir="false" />
+    <list default="true" id="ce82539a-96ea-4f6b-9de6-74e9c8c958bb" name="Default Changelist" comment="init commit">
+      <change afterPath="$PROJECT_DIR$/src/component/headerMenuLinks/MenuLinks.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/swiper/Swiper.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/swiper/Swiper.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/image/Frame9.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/image/instagram1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/image/pinterest.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/image/youtube.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/style/FirstBanner.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/FirstBanner.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Header.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style/firstBanner.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/banner/Banner.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/Header.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,10 +56,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Windows\PhpstormProjects\bw-app\src\component" />
+      <recent name="C:\Users\Windows\PhpstormProjects\bw-app\src\style" />
+      <recent name="C:\Users\Windows\PhpstormProjects\bw-app\src\component\firstBanner" />
       <recent name="C:\Users\Windows\PhpstormProjects\bw-app\src\image" />
       <recent name="C:\Users\Windows\PhpstormProjects\bw-app\src\font" />
-      <recent name="C:\Users\Windows\PhpstormProjects\bw-app\src\style" />
-      <recent name="C:\Users\Windows\PhpstormProjects\bw-app\src" />
     </key>
   </component>
   <component name="RunManager" selected="npm.npm start">
@@ -86,8 +86,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1613296026180</updated>
-      <workItem from="1613296027786" duration="6021000" />
+      <workItem from="1613296027786" duration="17083000" />
     </task>
+    <task id="LOCAL-00001" summary="init commit">
+      <created>1613303795354</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1613303795354</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -103,5 +111,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="init commit" />
   </component>
 </project>

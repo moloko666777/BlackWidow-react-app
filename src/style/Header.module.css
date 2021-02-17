@@ -1,14 +1,18 @@
-.social-icon {
+/*header social links*/
+
+.social {
     display: flex;
     justify-content: flex-end;
     background: #ECECEC;
     padding: 13px;
 }
-.social-icon ul{
+.social ul{
     display: flex;
     justify-content: space-between;
     width: 243px;
 }
+
+/*logo*/
 
 .logo {
     display: flex;
@@ -17,24 +21,44 @@
     font-size: 60px;
     line-height: 80px;
     color: #070707;
-    border: 1px solid rgba(196, 196, 196, 0.5);
+    border-bottom: 1px solid rgba(196, 196, 196, 0.5);
 }
-.menu-links ul {
+
+/*menu-links*/
+
+.menu .list {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 20px;
     font-family: 'Lato-Semibold';
+    text-transform: uppercase;
 }
-.menu-links a {
+.menu a {
     font-size: 17px;
     line-height: 20px;
     color: #3D3D3D;
     transition: .25s;
 }
 
-.menu-links a:hover {
+.menu a:hover {
     color: #070707;
     transition: .25s;
 }
+
+.dropDown {
+    position:relative;
+}
+
+.dropDown:hover .submenu{
+    display:block;
+    position:absolute;
+    top: 0;
+    background: red;
+}
+
+.submenu {
+    display: none;
+}
+
 
